@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>无标题页</title>
+    <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="text-align: center">
+    <form id="form1" runat="server">
+    <div class="top" style="text-align: left">
+        &nbsp;
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="退出" />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/files/login.aspx" CssClass="link">[请登录]</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" CssClass="link" NavigateUrl="~/files/register.aspx">[注册]</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/buyer_files/buyed.aspx">买家</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/seller_files/mygoods.aspx">卖家</asp:HyperLink>
+        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="购物车" /></div>
+    <div class="bg">
+        
+        <div id="tlogo" style="text-align: left">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/logo.png" /></div>
+        <div id="nav">
+             <ul>
+                 <li class="d1" id="a"><a href="~/Default.aspx" runat="server"><span>商城首页</span></a></li>
+                 <li class="d1" id="b"><a href="~/hotsell.aspx" runat="server"><span>所有商品</span></a></li>
+                 <li class="d1" id="c"><a href="~/clothes/clothes.aspx" runat="server"><span>女装</span></a></li>
+                 <li class="d1" id="d"><a href="~/shipin/decorations.aspx" runat="server"><span>饰品</span></a></li>
+                 <li class="d1" id="e"><a href="~/bags/hat.aspx" runat="server"><span>鞋</span></a></li>
+                 <li class="d1" id="f"><a href="~/shoes/shoes.aspx" runat="server"><span>包</span></a></li>
+            </ul>
+        </div>
+        <div id="tsearch" style="text-align: left">
+            &nbsp;
+            <asp:TextBox ID="TextBox1" runat="server" Width="483px" Height="19px"></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" BorderStyle="None" Text="搜索" CssClass="sbt" OnClick="Button1_Click"/></div>
+        <div id="tcontent">
+            <div id="tctop"></div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+
+        
+    </div>
+    </form>
+</body>
+</html>

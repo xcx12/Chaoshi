@@ -1,0 +1,1155 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.top {
+    width: 100%;
+    height: 25px;
+    background: url(../images/hd.png) repeat-x top;
+    line-height: 25px
+}
+
+#tad {
+    width: 940px;
+    height: 40px;
+    background: url(../images/tad.gif)
+}
+
+#tlogo {
+    width: 940px;
+    height: 43px
+}
+
+#nav {
+    width: 740px;
+    text-align: left;
+    height: 20px;
+    margin-top: 0;
+    margin-left: 200px
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.d1 {
+    float: left;
+    margin-right: 1px
+}
+
+.d1 a {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    background: url(../images/1.gif) no-repeat left top;
+    font-size: 13px
+}
+
+.d1 a span {
+    display: block;
+    padding: 6px 10px;
+    background: url(../images/2.gif) no-repeat right top;
+    margin-top: 3px
+}
+
+#a a span {
+    padding: 9px 10px 6px 10px;
+    margin-top: 0;
+    background: url(../images/2.gif) no-repeat right -27px
+}
+
+#a a {
+    background: url(../images/1.gif) no-repeat left -27px;
+    color: #FFFFFF;
+    font-weight: bold
+}
+
+#b a:hover {
+    background-position: left -57px;
+    color: #FFFFFF
+}
+
+#b a:hover span {
+    background-position: right -57px
+}
+
+#c a:hover {
+    background-position: left -87px;
+    color: #FFFFFF
+}
+
+#c a:hover span {
+    background-position: right -87px
+}
+
+#d a:hover {
+    background-position: left -117px;
+    color: #FFFFFF
+}
+
+#d a:hover span {
+    background-position: right -117px
+}
+
+#e a:hover {
+    background-position: left -147px;
+    color: #FFFFFF
+}
+
+#e a:hover span {
+    background-position: right -147px
+}
+
+#f a:hover {
+    background-position: left -177px;
+    color: #FFFFFF
+}
+
+#f a:hover span {
+    background-position: right -177px
+}
+
+#tsearch {
+    width: 830px;
+    height: 35px;
+    margin-left: 110px;
+    margin-top: 20px;
+    line-height: 30px
+}
+
+.sbt {
+    background: url(../images/btn1.gif);
+    width: 79px;
+    height: 30px
+}
+
+#tcontent {
+    width: 940px;
+    height: 1080px;
+    border: solid 1px orange;
+}
+
+#tctop {
+    height: 28px;
+    width: 940px;
+    background: url(../images/hd.png) repeat-x 110px -110px
+}
+
+.footer {
+    width: 940px;
+    height: 24px;
+    background: url(../images/hd.png) repeat-x bottom
+}
+
+.link {
+    text-decoration: none;
+    color: black
+}
+
+
+.dwrap {
+    margin: 0 auto;
+    width: 940px;
+    height: auto
+}
+
+#dmain {
+    width: 940px;
+    height: 1000px;
+}
+
+#deleft {
+    width: 700px;
+    height: auto;
+    float: left;
+    margin-left: 5px
+}
+
+#deright {
+    width: 220px;
+    height: 1000px;
+    float: left;
+    border: solid 1px gray
+}
+
+#deltop {
+    width: 690px;
+    height: 250px;
+}
+
+#deltl {
+    width: 190px;
+    height: 250px;
+    float: left;
+    border: solid 1px gray;
+    margin-top: 5px
+}
+
+#deltm {
+    width: 400px;
+    height: 250px;
+    float: left;
+    margin-left: 10px;
+    border: solid 1px gray;
+    margin-top: 5px
+}
+
+#deltr {
+    width: 110px;
+    height: 250px;
+    margin-left: 5px;
+    border: solid 1px gray;
+    margin-top: 5px;
+    float: right
+}
+
+#delbottom {
+    width: 690px;
+    height: 700px;
+    margin-top: 10px;
+    border: solid 1px gray
+}
+
+#deltlt {
+    width: 180px;
+    height: 120px;
+    margin-left: 2px;
+    margin-top: 5px;
+    margin: 0;
+    padding: 0
+}
+
+#deltlb {
+    width: 180px;
+    height: 100px;
+    margin-left: 2px;
+    margin-top: 5px
+}
+
+.deltltbg {
+    width: 190px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/box_bg.png) repeat-x top;
+    line-height: 30px;
+    text-align: left;
+    font-weight: bold
+}
+
+#deltltgg {
+    width: 50px;
+    height: 80px;
+    margin-top: 2px;
+    float: left;
+    line-height: 80px
+}
+
+#deltltgw {
+    width: 120px;
+    height: 80px;
+    margin-left: 3px
+}
+
+#deltmt {
+    width: 360px;
+    height: 190px;
+    background: url(../images/ad1.jpg) no-repeat
+}
+
+#deltmn {
+    width: 400px;
+    height: 190px;
+    background: url(http://localhost:57276/Myshop/images/bql.jpg) no-repeat
+}
+
+#deltr1 {
+    width: 90px;
+    height: 50px;
+    background: url(../images/cars.jpg);
+    margin: 0 auto
+}
+
+#deltr2 {
+    width: 90px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 5px
+}
+
+.deltul {
+    font-size: 9pt;
+    color: Gray
+}
+
+#deltr3 {
+    width: 90px;
+    height: 50px;
+    background: url(../images/week.jpg);
+    margin: 0 auto;
+    margin-top: 8px
+}
+
+#adbg {
+    width: 360px;
+    height: 40px;
+    background: url(../images/adbg.png) -26px -105px;
+    margin-top: 8px;
+    line-height: 40px
+}
+
+#adbgt {
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 100px;
+}
+
+#delfl {
+    width: 690px;
+    height: 30px;
+    background: url(../images/box_bg.png) repeat-x top;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#delfel {
+    width: 500px;
+    height: 40px;
+    margin-top: 10px
+}
+
+#delhot {
+    width: 690px;
+    height: 500px;
+    margin-top: 5px
+}
+
+#delhotbg {
+    width: 690px;
+    height: 30px;
+    background: url(../images/box_bg.png) repeat-x top;
+    line-height: 30px;
+    font-weight: bold
+}
+
+#deldet {
+    width: 690px;
+    height: 250px;
+    border: solid 1px gray;
+    margin-top: 5px
+}
+
+.hot1 {
+    width: 80px;
+    height: 15px;
+}
+
+.hot2 {
+    width: 80px;
+    height: 80px;
+}
+
+.hot3 {
+    width: 80px;
+    height: 60px;
+    font-size: 11pt
+}
+
+.hot4 {
+    display: block;
+    color: Red
+}
+
+#ad3 {
+    width: 670px;
+    height: 90px;
+    background: url(../images/ad3.gif);
+}
+
+#debg {
+    width: 220px;
+    height: 30px;
+    background: url(../images/box_bg.png) repeat-x top;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#delguess {
+    width: 210px;
+    height: 460px;
+    margin-top: 5px;
+    margin: 0 auto;
+    border: solid 1px gray;
+    margin-top: 5px
+}
+
+#dert {
+    width: 215px;
+    height: 80px;
+    border: solid 1px gray;
+    margin-top: 5px
+}
+
+#dertt {
+    width: 125px;
+    height: 80px;
+    float: left;
+    background: url(../images/rad1.jpg);
+}
+
+#dertd {
+    width: 82px;
+    height: 80px;
+    background: url(../images/rad2.jpg);
+    float: right
+}
+
+#rad1 {
+    width: 220px;
+    height: 90px;
+    background: url(../images/rad3.gif) -10px 0;
+    margin-top: 10px
+}
+
+#rad2 {
+    width: 220px;
+    height: 90px;
+    background: url(../images/rad4.jpg) -16px 0;
+    margin-top: 10px
+}
+
+#rad3 {
+    width: 220px;
+    height: 90px;
+    background: url(../images/rad5.gif) -10px 0;
+    margin-top: 10px
+}
+
+#rad4 {
+    width: 220px;
+    height: 30px;
+    background: url(../images/box_bg.png) repeat-x top;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#rad5 {
+    width: 210px;
+    height: 70px;
+    margin-top: 5px;
+    border: solid 1px gray;
+    margin: 0 auto;
+    color: gray;
+    font-size: 10pt;
+}
+
+#delb {
+    width: 690px;
+    height: 200px;
+    margin-top: 5px
+}
+
+#delbl {
+    width: 330px;
+    height: 200px;
+    float: left;
+    margin-left: 3px;
+    border: solid 1px gray
+}
+
+#delbr {
+    width: 330px;
+    height: 200px;
+    margin-left: 10px;
+    float: right;
+    margin-right: 5px;
+    border: solid 1px gray
+}
+
+.delbgg {
+    width: 330px;
+    height: 30px;
+    background: url(../images/box_bg.png) repeat-x top;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+
+.shwrap {
+    margin: 0 auto;
+    padding: 0;
+    width: 940px;
+    height: 1000px
+}
+
+#shleft {
+    width: 250px;
+    height: 1000px;
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+#shlt {
+    width: 250px;
+    height: 500px
+}
+
+
+.clowrap {
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin: 0;
+    padding: 0
+}
+
+#clotop {
+    width: 940px;
+    height: 280px;
+    margin: 0 auto;
+    margin-left: 5px
+}
+
+#clotleft {
+    width: 200px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border: solid 1px #cccccc
+}
+
+#topad {
+    width: 200px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 0;
+    border: solid 1px #cccccc
+}
+
+#topad1 {
+    width: 200px;
+    height: 25px;
+    background: url(../clothes/images/boxbg.png) repeat-x 2px -8px;
+    line-height: 25px;
+    font-weight: bold;
+    border: solid 1px #cccccc;
+    color: Red
+}
+
+#topad2 {
+    width: 180px;
+    height: 88px;
+    background: url(../clothes/images/gonggao.jpg);
+    margin-top: 2px
+}
+
+#bottomad {
+    width: 200px;
+    height: 120px;
+    margin-top: 15px;
+}
+
+#xiaoxi {
+    width: 200px;
+    height: 25px;
+    background: url(../clothes/images/boxbg.png) repeat-x 2px -8px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 12px;
+    border: solid 1px #cccccc;
+    color: Red
+}
+
+#neirong {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0
+}
+
+#clotmiddle {
+    width: 510px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+    float: left
+}
+
+#tupian {
+    width: 510px;
+    height: 250px;
+    background: url(../clothes/images/ad.jpg) no-repeat;
+    margin: 0;
+    padding: 0
+}
+
+#cloright {
+    width: 205px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+    border: solid 1px #cccccc;
+    float: left;
+    margin-left: 5px
+}
+
+#rigtop2 {
+    width: 60px;
+    height: 60px;
+    background: url(../clothes/images/a.jpg) no-repeat;
+    margin-top: 15px;
+    border: solid 1px #cccccc
+}
+
+#rigmiddle {
+    width: 210px;
+    height: 80px;
+}
+
+#rigbottom {
+    width: 210px;
+    height: 80px;
+}
+
+#rigtop1 {
+    width: 203px;
+    height: 25px;
+    background: url(../clothes/images/boxbg.png) repeat 2px -8px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    color: Red;
+    border: solid 1px #cccccc
+}
+
+#clobottom {
+    width: 940px;
+    height: 500px;
+}
+
+#clobtm {
+    width: 940px;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px
+}
+
+#clobtml {
+    width: 710px;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 5px
+}
+
+.clobtm1 {
+    width: 710px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    border: solid 1px #cccccc;
+    margin-top: 5px
+}
+
+.clobtmbg {
+    width: 710px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../clothes/images/boxbg.png) repeat 2px -8px;
+    font-weight: bold;
+    text-align: left;
+    border: solid 1px #cccccc
+}
+
+#btmad1 {
+    width: 210px;
+    height: 210px;
+    float: left;
+    background: url(../clothes/images/btm1.jpg);
+    margin-top: 2px
+}
+
+#btmad2 {
+    width: 210px;
+    height: 210px;
+    float: left;
+    background: url(../clothes/images/btm2.jpg);
+    margin-top: 2px
+}
+
+#btmad3 {
+    width: 210px;
+    height: 210px;
+    float: left;
+    background: url(../clothes/images/btm3.jpg);
+    margin-top: 2px
+}
+
+.cload {
+    color: #ff6600
+}
+
+#clobtmr {
+    width: 205px;
+    height: 700px;
+    float: left;
+    margin-top: 10px;
+    padding: 0;
+    margin-left: 8px;
+    border: solid 1px #cccccc;
+}
+
+#clobtmbg {
+    width: 205px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../clothes/images/boxbg.png) repeat 2px -8px;
+    font-weight: bold;
+    text-align: left;
+    border: solid 1px #cccccc;
+}
+
+.wrap {
+    width: 940px;
+    height: auto;
+    margin: 0 auto
+}
+
+#left {
+    width: 200px;
+    height: 1000px;
+    float: left;
+    margin-left: 5px
+}
+
+#ltop {
+    width: 200px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    border: solid 1px gray
+}
+
+#ltopbg {
+    width: 200px;
+    height: 30px;
+    background: url(../shipin/pic/gray.gif) repeat-x 0 5px;
+    line-height: 30px;
+    font-weight: bold
+}
+
+#lbottom {
+    width: 200px;
+    height: auto;
+    margin-top: 30px;
+    border: solid 1px gray
+}
+
+#right {
+    width: 700px;
+    height: 1000px;
+    float: right;
+    margin-right: 5px
+}
+
+#lbottombg {
+    width: 200px;
+    height: 30px;
+    background: url(../shipin/pic/gray.gif) repeat-x 0 5px;
+    line-height: 30px;
+    font-weight: bold
+}
+
+#rtop {
+    width: 700px;
+    height: 260px;
+}
+
+#rtopl {
+    width: 500px;
+    height: 250px;
+    background: url(../shipin/pic/1.jpg) no-repeat;
+    float: left;
+}
+
+#rtopr {
+    width: 180px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border: solid 1px gray;
+    margin-left: 13px
+}
+
+#rtoprbg1 {
+    width: 180px;
+    height: 30px;
+    background: url(../shipin/pic/gray.gif) repeat-x 0 5px;
+    line-height: 30px;
+    font-weight: bold
+}
+
+#rtoprbg2 {
+    width: 180px;
+    height: 200px;
+    font: 13px;
+    color: #FF66FF;
+}
+
+#rbottom {
+    width: 700px;
+    height: 700px;
+}
+
+#rbottom1 {
+    width: 700px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    border: solid 1px gray
+}
+
+#rbottombg1 {
+    width: 700px;
+    height: 30px;
+    background: url(../shipin/pic/gray.gif) repeat-x 0 5px;
+    line-height: 30px;
+    font-weight: bold
+}
+
+#rbottom2 {
+    width: 700px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    border: solid 1px gray;
+    margin-top: 10px
+}
+
+#rbottombg2 {
+    width: 700px;
+    height: 30px;
+    background: url(../shipin/pic/gray.gif) repeat-x 0 5px;
+    line-height: 30px;
+    font-weight: bold
+}
+
+#rbottom3 {
+    width: 700px;
+    height: 230px;
+    margin: 0;
+    padding: 0;
+    border: solid 1px gray;
+    margin-top: 10px
+}
+
+#rbottombg3 {
+    width: 700px;
+    height: 30px;
+    background: url(../shipin/pic/gray.gif) repeat-x 0 5px;
+    line-height: 30px;
+    font-weight: bold
+}
+
+h3 {
+    color: #00FFFF
+}
+
+
+.hotwrap {
+    width: 940px;
+    height: 1000px;
+    border: solid 1px orange
+}
+
+
+.showrap {
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px
+}
+
+#shotop {
+    width: 940px;
+    height: 250px
+}
+
+#sholeft {
+    width: 200px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    border: solid 1px #cccccc;
+    float: left
+}
+
+#shopad1 {
+    width: 200px;
+    height: 25px;
+    background: url(../shoes/images/boxbg.png) repeat-x 2px -8px;
+    line-height: 25px;
+    font-weight: bold;
+    border: solid 1px #cccccc
+}
+
+#shobottom {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+#shomiddle {
+    width: 510px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    float: left
+}
+
+#shotupian {
+    width: 510px;
+    height: 250px;
+    background: url(../shoes/images/ad1.jpg) no-repeat;
+    margin: 0;
+    padding: 0
+}
+
+#shoright {
+    width: 200px;
+    height: 250px;
+    margin-right: 5px;
+    padding: 0;
+    border: solid 1px #cccccc;
+    float: right
+}
+
+#rigtopsho {
+    width: 200px;
+    height: 25px;
+    background: url(../shoes/images/boxbg.png) repeat 2px -8px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 12px;
+    border: solid 1px #cccccc;
+    margin: 0;
+    padding: 0
+}
+
+#rigbottomsho {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    padding: 0
+}
+
+#shbtm {
+    width: 940px;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px
+}
+
+#shbtl {
+    width: 700px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border: solid 1px #cccccc
+}
+
+#shbtr {
+    width: 220px;
+    height: 500px;
+    margin-right: 5px;
+    padding: 0;
+    border: solid 1px #cccccc;
+    float: right
+}
+
+#shbtbg {
+    width: 700px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../shoes/images/boxbg.png) repeat-x 2px -8px;
+    font-weight: bold;
+    border: solid 1px #cccccc
+}
+
+#shbtg {
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../shoes/images/boxbg.png) repeat-x 2px -8px;
+    font-weight: bold;
+    border: solid 1px #cccccc
+}
+
+#shde {
+    width: 190px;
+    height: 250px;
+    background: url(../shoes/images/ad2.jpg);
+    margin-top: 80px
+}
+
+
+.hatwrap {
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px
+}
+
+#hattop {
+    width: 940px;
+    height: 250px;
+    margin: 0;
+    padding: 0
+}
+
+#hatleft {
+    width: 200px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    border: solid 1px #cccccc;
+    float: left
+}
+
+#hatpad1 {
+    width: 200px;
+    height: 25px;
+    background: url(../shoes/images/boxbg.png) repeat-x 2px -8px;
+    line-height: 25px;
+    font-weight: bold;
+    border: solid 1px #cccccc
+}
+
+#hatbottom {
+    width: 90px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 0
+}
+
+#hatmiddle {
+    width: 510px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    float: left
+}
+
+#hattupian {
+    width: 510px;
+    height: 250px;
+    background: url(../bags/images/ad.jpg) no-repeat;
+    margin: 0;
+    padding: 0
+}
+
+#hatright {
+    width: 200px;
+    height: 250px;
+    margin-right: 10px;
+    padding: 0;
+    border: solid 1px #cccccc;
+    float: right
+}
+
+#rigtophat {
+    width: 200px;
+    height: 25px;
+    background: url(../bags/images/boxbg.png) repeat 2px -8px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 12px;
+    border: solid 1px #cccccc
+}
+
+#rigbottomhat {
+    width: 200px;
+    height: 230px;
+    margin-top: 5px;
+}
+
+#habtm {
+    width: 940px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px
+}
+
+#habtml {
+    width: 700px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border: solid 1px #cccccc
+}
+
+#habtmr {
+    width: 220px;
+    height: 500px;
+    margin-right: 5px;
+    padding: 0;
+    border: solid 1px #cccccc;
+    float: right
+}
+
+#halbg {
+    width: 700px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../shoes/images/boxbg.png) repeat-x 2px -8px;
+    font-weight: bold;
+    border: solid 1px #cccccc
+}
+
+#harbg {
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../shoes/images/boxbg.png) repeat-x 2px -8px;
+    font-weight: bold;
+    border: solid 1px #cccccc
+}
+
+#sjzq {
+    width: 190px;
+    height: 250px;
+    background: url(../bags/images/ad2.jpg);
+    margin-top: 80px
+}
